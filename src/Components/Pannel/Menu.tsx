@@ -82,20 +82,4 @@ export const AppMenu2 = [
         label: "Icons",
         path: "Icons",
     },
-    {
-        id: "mobile",
-        label: "Contact Us",
-        path: "/contactUs",
-    },
-    {
-        id: "get",
-        label: "Get In Touch",
-        path: "/getInTouch",
-    },
-    {
-        id: "mobile",
-        label: "Contact Us",
-        path: "/contactUs",
-
-    },
 ]

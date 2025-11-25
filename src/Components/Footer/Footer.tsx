@@ -2,7 +2,6 @@ import React from 'react';
 import { TextStyle, FlexLayout, VerticalStack, InlineStack } from 'jiffy-ui';
 import { Hithub, ExternalLink, Heart, ArrowUp, Twitter, Instagram, Facebook } from 'jiffy-icons';
 import { Link } from 'react-router-dom';
-import './Footer.css';
 import logo from '../../assets/uiLogo.png'
 
 const Footer = () => {

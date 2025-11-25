@@ -88,7 +88,7 @@ const AppSidebar = () => {
             {/* Sidebar */}
             <div>
                 <SideBar
-                    onChange={(e) => { navigate(e) }}
+                    onChange={(e) => { navigate(`/pannel/${e}`) }}
                 >
                 <SideBar.Item
                     expandedItem={true}

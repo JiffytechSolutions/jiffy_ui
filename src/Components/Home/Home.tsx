@@ -8,6 +8,7 @@ import './Home.css'
 const Home = () => {
     return (
         <div className='home-page'>
+            hhhhhhhhhhhhh
             <InteractiveHero />
             <ComponentList />
             <CallToAction />

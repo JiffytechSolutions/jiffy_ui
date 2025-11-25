@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <ThemeProvider>
         <SearchProvider>
-          <BrowserRouter basename={process.env.NODE_ENV === 'production' ? '/Jiffy-ui-demo' : '/'}>
+          <BrowserRouter basename={process.env.NODE_ENV === 'production' ? '/' : '/'}>
             <Routes>
               <Route path="/" element={<Header />}>
                 <Route index element={<Home />} />
